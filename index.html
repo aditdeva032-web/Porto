@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DEVA AS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -124,8 +125,10 @@
     }
 
     .btn {
-      display: block;
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
       padding: 13px;
       border-radius: 8px;
       text-decoration: none;
@@ -136,6 +139,8 @@
       background: transparent;
       transition: 0.25s;
     }
+    .btn i { font-size: 22px; }
+
     .wa     { color: #25D366; border-color: #25D366; }
     .tiktok { color: #00f2ea; border-color: #00f2ea; }
     .ig     { color: #ff4fa3; border-color: #ff4fa3; }
@@ -165,9 +170,15 @@
     <div class="body" id="terminal"></div>
 
     <div class="links" id="links">
-      <a class="btn wa" href="https://wa.me/6282175305740" target="_blank">[ WhatsApp ]</a>
-      <a class="btn tiktok" href="https://www.tiktok.com/@manusia_biasa093?_r=1&amp;_t=ZS-9AtclFRLGw0" target="_blank">[ TikTok ]</a>
-      <a class="btn ig" href="https://www.instagram.com/user.unkown0007?cplk=aWUzcTM3YTd5M2o0" target="_blank">[ Instagram ]</a>
+      <a class="btn wa" href="https://wa.me/6282175305740" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+      </a>
+      <a class="btn tiktok" href="https://www.tiktok.com/@user.unknown0007?_r=1&amp;_t=ZS-9Au3ysPuYjM" target="_blank">
+        <i class="fa-brands fa-tiktok"></i> TikTok
+      </a>
+      <a class="btn ig" href="https://www.instagram.com/user.unkown0007?cplk=aWUzcTM3YTd5M2o0" target="_blank">
+        <i class="fa-brands fa-instagram"></i> Instagram
+      </a>
     </div>
   </div>
 
